@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Flexbox Pattern Website</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar-container">
+            <div class="menu-box">
+                <a class="menu-item" href="index.html">Home</a>
+                <a class="menu-item" href="services.html">Services</a>
+                <a class="menu-item" href="#">Product</a>
+                <a class="menu-item" href="#">About</a>
+                <a class="menu-item" href="#">Contact</a>
+            </div>
+
+            <div class="logo-box">
+                <img class="logo"
+                    src="https://raw.githubusercontent.com/LambdaSchool/User-Interface/master/great-idea-website/img/logo.png"
+                    alt="Great Idea! Company logo.">
+            </div>
+        </div>
+        <div>
+            <!-- BOX 1 -----------BOX 1 -----------BOX 1 -----------BOX 1 ----------- -->
+            <div class="box1">
+                <h2>I am BOX 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure, quidem asperiores
+                    neque, in ipsam vitae omnis sapiente voluptatum, optio quae non dignissimos nemo exercitationem
+                    perferendis maiores molestiae doloribus temporibus.
+                </p>
+                <button class="btn1">Click Me!
+                </button>
+                <!--  ---------------------------------------------------------------------------->
+                <br>
+                <br>
+                <hr>
+                <!-------------------------------------------------------------------------------->
+            </div>
+            <!-- BOX 2 ----------BOX 2 ----------BOX 2 ----------BOX 2 ---------- -->
+            <div class="box2">
+                <h2>I am BOX 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque praesentium illum soluta quasi tempore
+                    amet maiores optio ex repudiandae, odit voluptatem dignissimos eligendi sint laudantium aspernatur,
+                    reiciendis blanditiis culpa laborum!</p>
+                <button class="btn2">Click Me!
+                </button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <!-- BOX 3---------BOX 3---------BOX 3---------BOX 3---------BOX 3--------- -->
+
+
+
+
+        <div class="box3">
+            <div class="round-button-hide">
+
+                <button type="button" class="round-button-hide"
+                    onclick="document.getElementById('demo').style.display='none'">Click = Hide Text!</button>
+            </div>
+
+            <div class="round-button-show">
+                <button type="button" class="round-button-show"
+                    onclick="document.getElementById('demo').style.display='block'">Click = Show Text!</button>
+            </div>
+
+            <div class="text-container3" id="demo">I am BOX 3</div>
+        </div>
+
+        <hr>
+
+
+
+        <!-- BOX 4 ------------BOX 4 ------------BOX 4 ------------BOX 4 ------------ -->
+        <div class="box4">I am BOX 4
+            <div class="container4">
+                <div id="logo-holder">
+                    <img src="https://files.townlife.com/public/uploads/photos/350428/books1_large.jpg" class="image" />
+                    <div class="text">Hover to see me shopping!</div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+
+        <!--BOX 5 --- IMAGE FLIP ON HOVER ------------- IMAGE FLIP ON HOVER  ----->
+        <h1 class="card-flip">Box 5__Card Flip with Text</h1>
+        <h3 class="card-flip">Hover over the image below:</h3>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <!--------------------------------------------->
+                <div class="flip-card-front">
+                    <!--             <h2>PHOTO GOES HERE</h2> -->
+                    <img src="https://wge.com.au/wp-content/uploads/2018/04/HS-Quentin-Wilson-300px-X-300px.jpg">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+
+
+        <!-- /------CHAT BUTTON---------------CHAT BUTTON-------------------- -->
+        <br>
+        <br>
+        <button class="chat">CHAT</button>
+        <div id="content">
+            <p>BOX 6...Chat is now...<span class="chat-closed">CLOSED</span></p>
+        </div>
+        <br>
+        <br>
+        <Hr>
+        <br>
+        <br>
+        <div class="container8">
+            <h3>BOX 8</h3>
+            <!-- Add icon library -->
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- Use an element to toggle between a like/dislike icon -->
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"><br><br>Click on thumb!</i>
+        </div>
+        <hr>
+
+
+
+    </div>
+</body>
+
+</html>

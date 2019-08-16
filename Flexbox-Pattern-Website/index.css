@@ -1,0 +1,542 @@
+ 
+  
+  @keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .notice {
+     -webkit-animation: flickerAnimation 1s infinite;
+     -moz-animation: flickerAnimation 1s infinite;
+     -o-animation: flickerAnimation 1s infinite;
+      animation: flickerAnimation 1s infinite;
+  }
+  
+    
+  /*   ===================================== */
+    
+  .red-highlight {
+    color: red;
+  }
+  .container {
+    width: 95%;
+    height: auto;
+    margin-left: 5%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid blue;
+    align-items: center;
+  }
+  .navbar-container {
+    border: 4px solid black;
+    margin-top: 5px;
+    display: flex;
+    width: 94%;
+  }
+  .menu-box {
+    width: 90%;
+    height: 30px;
+    border: 3px dashed fuchsia;
+    background: lightblue;
+    margin: 10px auto 10px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo-box {
+    width: 120px;
+    height: 40px;
+    border: 4px solid orange;
+    margin-top: 5px;
+    
+  }
+  .logo {
+    width: 100px;
+    height: 40px;
+    
+  }
+  .section1 {
+    border: 4px solid black;
+    background: lightcoral;
+    width: 95%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .innov-on-dem {
+  border: 2px dashed red;
+    width: 48%;
+    height: 90%;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .round-image {
+  border: 2px dashed red;
+    width: 48%;
+    height: 90%;
+    margin: 5px;
+      text-align: center;
+  
+  }
+  .notice {
+    color: white;
+    font-weight: bold;
+  }
+  .border {
+    border: 1px solid black;
+    height: 1px;
+    width: 90%;
+    background: gray;
+    margin: 10px auto 10px auto;
+  }
+  .image {
+    border: 1px solid black;
+    background: lightsteelblue;
+    height: 120px;
+    width: 95%;
+    margin: 0 auto;
+      text-align: center;
+  
+  }
+  .section2 {
+    border: 4px solid black;
+    width: 95%;
+    height: 120px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  
+  .features {
+  border: 2px dashed red;
+    width: 48%;
+    height: 90%;
+    margin: 5px;
+    background: lightsteelblue;
+      text-align: center;
+  
+  }
+  .about {
+  border: 2px dashed red;
+    width: 48%;
+    height: 90%;
+    margin: 5px;
+     background: lightsteelblue;
+      text-align: center;
+  
+  }
+  .image-long {
+    border: 4px solid black;
+    width: 95%; 
+    height: 120px;
+   margin: 10px auto 10px auto;
+    background: lightseagreen;
+        text-align: center;
+  
+  }
+  .section3 {
+  /*     border: 1px solid black;
+    width: 95%; 
+    height: 120px;
+    background: lightcyan;
+    display: flex;
+    align-items: center;
+    margin: 0 auto; */
+    border: 4px solid black;
+    width: 95%;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .services { 
+  border: 2px dashed red;
+  width: 32%;
+  height: 90%;
+  background: lightgoldenrodyellow;
+  margin: 5px;
+      text-align: center;
+  
+  
+  }
+  .product { 
+  border: 2px dashed red;
+  width: 32%;
+  height: 90%;
+  background: lightgoldenrodyellow;
+    margin: 5px;
+      text-align: center;
+  
+  
+  
+  }
+  .vision { 
+  border: 2px dashed red;
+  width: 32%;
+  height: 90%;
+  background: lightgoldenrodyellow;
+  margin: 5px;
+      text-align: center;
+  
+  
+  }
+  .section4 {
+    border: 4px solid black;
+    black;
+    width: 95%;
+    height: 150px;
+    width: 95%;
+    margin: 5px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* MEDIA QUERIES ... MEDIA QUERIES */
+  
+  @media (max-width: 900px) {
+    .round-image{
+      display: none;
+    }
+  }
+  
+  
+  @media (max-width: 900px) {
+    .image-long{
+      display: none;
+    }
+  }
+  
+  @media (max-width: 764px) {
+    .navbar-container{
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+      height: 200px;
+    }
+  }
+  
+  @media(max-width: 764px) {
+    .menu-box {
+      flex-direction: column;
+      align-items: center;
+      height: 140px;
+      margin-top: 2px;
+    }
+  }
+  
+  /* CODE SNIPPETS  PAGE ---------CODE SNIPPETS  PAGE --------- CODE SNIPPETS  PAGE ---------  */
+    /* CODE SNIPPETS  PAGE ---------CODE SNIPPETS  PAGE --------- CODE SNIPPETS  PAGE ---------  */
+      /* CODE SNIPPETS  PAGE ---------CODE SNIPPETS  PAGE --------- CODE SNIPPETS  PAGE ---------  */
+
+      .box1 {
+        /* This box is around "I am lorem 1 and "Click Me button */
+        padding: 3px;
+        margin: 20px;
+        background: beige;
+      }
+      .box2 {
+        /* This box is around "I am lorem 2 and "Click Me button */
+        padding: 3px;
+        margin: 20px;
+        background: lightsalmon;
+      }
+      
+      .btn1 {
+        width: 90px;
+        height: 45px;
+        border-radius: 8px;
+        border: green;
+        background: lightseagreen;
+        color: white;
+      }
+      .btn2 {
+        width: 90px;
+        height: 45px;
+        border-radius: 8px;
+        background: lightseagreen;
+        border: 1px solid white;
+        color: white;
+      }
+      .btn1:hover {
+        background: seagreen;
+        font-weight: bold;
+        font-size: 12px;
+      }
+      .btn2:hover {
+        background: seagreen;
+        font-weight: bold;
+        font-size: 12px;
+      }
+      
+      p:hover {
+        display: block;
+        color: seagreen;
+        visibility: visible;
+        border: 1px solid black;
+      }
+      button {
+        width: 90px;
+        height: 45px;
+        border-radius: 20px;
+        background: lightblue;
+        font-size: 14px;
+        /*   margin-left: 230px;
+         */
+      }
+      /********  GIVES THE TEXT A SHADOW BOX  **************** */
+      p {
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+        transition: all 0.4s ease 0s;
+        margin: 5px;
+        padding: 6px;
+      }
+      /* ------BOX 3------------BOX 3 ------------- BOX 3 -------------*/
+      
+.box3 {
+    border: 2px solid black;
+    width: 60vw;
+    height: 300px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    border-radius: 25px;
+    background: beige;
+  }
+  .round-button-hide {
+    width: 140px;
+    height: 40px;
+    /* margin-top: 10px; */
+    border-radius: 25px;
+    color: green;
+    font-weight: bold;
+
+  }
+  
+  .round-button-show { 
+    width: 140px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: blue;
+    font-weight: bold;
+  
+  }
+  .text-container3 {
+    width: 140px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 25px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+  }
+  
+  #demo {
+    width: 134px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 2px solid red;
+  } 
+  
+  
+      /* ------ BOX 4 ----------- BOX 4 -----------BOX 4----------BOX 4------ */
+      #logo-holder .image {
+         transition: opacity 0.5s ease-in-out;
+        top: 0;
+        left: 0;
+        opacity: 0;
+      }
+      
+      #logo-holder:hover .text {
+        opacity: 0;
+      }
+      #logo-holder:hover .image {
+        opacity: 1;
+      }
+      
+      #logo-holder {
+        border: 2px solid black;
+        background: teal;
+        width: 200px;
+        height: 200px; /* Dimensions of image */
+      }
+      .image {
+        width: 200px;
+        height: 200px;
+      }
+      .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: white;
+        padding-top: 80px;
+        text-align: center;
+      }
+      .container4{
+        margin: 20px 0 20px 0px;
+      }
+      
+      .box4 {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: 20px;
+        background: lightsalmon;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+      }
+      
+      /* ------ BOX 5 / IMAGE FLIP ON HOVER---- BOX 5 / IMAGE FLIP ON HOVER----*/
+      .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px;
+        margin-left: 260px;
+      }
+      
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+        background-color: beige;
+      }
+      
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+      
+      .flip-card-back {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+      .card-flip {
+        margin-left: 37%;
+      }
+      /* ------CHAT BUTTON---------------CHAT BUTTON------------------ */
+      
+      
+      .chat:hover + #content {
+        display: block;
+      }
+      
+      #content {
+        width: 360px;
+        height: 40px;
+        font-size: 24px;
+        color: white;
+        background: black;
+        position: relative;
+        animation: mymove 5s infinite;
+        border-radius: 8px;
+          display: none;
+      
+      }
+      @keyframes mymove {
+        from {
+          left: 0px;
+        }
+        to {
+          left: 60vw;
+        }
+      }
+      button {
+        width: 120px;
+        height: 40px;
+        background: black;
+        color: cyan;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 8px;
+        margin-left: 42vw;
+      }
+      .chat-closed {
+        color: red;
+        font-weight: bold;
+      }
+      
+      
+      
+      /*      HOVER OVER THIS TEXT TO SEE PHOTO 
+        */
+      a img {
+        display: none;
+      }
+      a:hover img {
+        display: block;
+      }
+      .container8 {
+        wide: 700px;
+        height: 300px;
+        margin-top: 5px;
+        margin-bottom: 80px;
+      }
+      /* =========== BOX 8 =========== BOX 8 =========== BOX 8 =========== BOX 8 ===========  */
+  
+  .fa fa-thumbs-up {
+    width: 30px;
+    height: 30px;
+    margin-left: 200px;
+  }
+  .container8 {
+    margin-left: 40vw;
+    background: cyan;
+    width: 110px;
+    height: 110px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
